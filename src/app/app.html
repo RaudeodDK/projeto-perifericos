@@ -1,19 +1,14 @@
-<link rel="stylesheet" href="app.css">
-<script src="app.ts" defer></script>
 <div class="container">
   <h1>Os produtos mais vendidos</h1>
 
   <div class="vitrine">
-
-    <div class = "lista-cards">
-      @for (item of produtos; track item.nome) {
-        <div class="card">
-          <h3>{{ item.nome}} </h3>
-          <p class="descricao">{{ item.descricao }}</p>
-          <p class="preco">R$ {{ item.preco.toFixed(2) }}</p>
-          <button click="comprar(item.nome)">Comprar Agora</button>
-        </div>
-      }
+    @for (item of perifericos; track item.nome) {
+    <div class="card">
+      <h3 class="nome-produto">{{ item.nome}} </h3>
+      <p class="descricao">{{ item.descricao }}</p>
+      <p class="preco">R$ {{ item.preco.toFixed(2) }}</p>
+      <button (click)="comprar(item.nome)">Comprar Agora</button>
     </div>
+    }
   </div>
-</div>,
+</div>
