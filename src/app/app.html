@@ -1,14 +1,4 @@
-<div class="container">
-  <h1>Os produtos mais vendidos</h1>
-
-  <div class="vitrine">
-    @for (item of perifericos; track item.nome) {
-    <div class="card">
-      <h3 class="nome-produto">{{ item.nome}} </h3>
-      <p class="descricao">{{ item.descricao }}</p>
-      <p class="preco">{{ item.preco | currency: 'BRL' }}</p>
-      <button (click)="comprar(item.nome)">Comprar Agora</button>
-    </div>
-    }
-  </div>
-</div>
+<router-outlet></router-outlet>
+<app-menu></app-menu>
+<app-tourz></app-tourz>
+<app-footer></app-footer>

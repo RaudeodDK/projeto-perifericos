@@ -1,0 +1,52 @@
+.section-mid{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.estrutura-titulo{
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.titulo-primario{
+    
+    font-family: inter;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+
+    
+
+}
+.bi{
+    color: #EB662B;
+    font-size: 60px;
+}
+.titulo-qualidades{
+    
+    font-family: inter;
+    font-weight: bold;
+    font-size: 25px;
+}
+.texto-qualidades{
+    margin-top: 15px;
+    font-family: inter;
+    font-size: 17px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-qualidades{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+}
