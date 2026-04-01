@@ -4,11 +4,16 @@ import { RouterOutlet } from "@angular/router";
 import { Menu } from "./menu/menu";
 import { Tourz } from "./tourz/tourz";
 import { Footer} from "./footer/footer";
+import { Banner } from "./banner/banner";
+import { Trending } from "./trending/trending";
+import { Telefone } from "./telefone/telefone";
+import { Costumer } from "./costumer/costumer";
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Menu, Tourz, Footer],
+  imports: [RouterOutlet, Menu, Tourz, Footer, Banner, Trending, Telefone, Costumer],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })

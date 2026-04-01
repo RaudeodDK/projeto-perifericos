@@ -1,0 +1,77 @@
+.section-banner-telefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-banner-telefone {
+    background-image: url('/assets/img/banner-telefone.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1530px;
+    height: 514px;
+}
+
+.titulo-telefone {
+    color: white;
+    font-family: inter;
+    font-size: 40px;
+    width: 365px;
+    font-weight: bold;
+
+
+}
+
+.texto-telefone {
+    color: white;
+    font-family: inter;
+    font-size: 13px;
+    width: 313px;
+    margin-top: 20px;
+
+}
+
+.texto-email-telefone {
+    color: white;
+    font-family: inter;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.caixa-pesquisa-telefone {
+    width: 350px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.btn-telefone {
+    width: 106px;
+    height: 60px;
+    border-radius: 12px;
+    border: none;
+    color: #4A43C4;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-telefone:hover {
+    transition: all 0, 5s ease-in-out;
+    background-color: rgb(219, 219, 219);
+}
+
+.caixa-inputs-telefone {
+
+    width: 100%;
+}
+
+.caixa-texto-telefone {
+
+    width: 600px;
+    padding: 90px;
+}

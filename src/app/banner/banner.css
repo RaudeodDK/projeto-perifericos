@@ -1,0 +1,100 @@
+.banner{
+    background-image: url('/assets/img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.section-center{
+display: flex;
+justify-content: center; 
+
+}
+
+.caixa-titulo-banner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo-banner{
+    color: white;
+    font-size: 40px;
+    font-family: inter;
+    font-weight: bold;
+    font-size: 60px;
+    padding: 10px;
+}
+.texto-banner{
+    color: white;
+    font-size: 15px;
+    font-family: inter;
+    padding: 10px;
+}
+.opcoes-pesquisa{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px  ;
+    border-radius: 15px;
+}
+.quadrado{
+    border: 1px solid lightgrey;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.onde{
+    display: flex;
+    flex-direction: row;    
+}
+.quando{
+    display: flex;
+    flex-direction: row;    
+}
+.tipo{
+    display: flex;
+    flex-direction: row;    
+}
+.caixa-subtexto-banner{
+    padding: 10px;
+}
+.btn-search{
+    background-color: #EB662B;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 130px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn-search:hover{
+    transform: scale(110%);
+
+}
+
+
+.caixa-elementos-banner{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

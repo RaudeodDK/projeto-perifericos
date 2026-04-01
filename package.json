@@ -10,6 +10,9 @@
     "serve:ssr:atividade": "node dist/atividade/server/server.mjs"
   },
   "private": true,
+  "overrides": {
+    "undici": "^7.24.0"
+  },
   "packageManager": "npm@11.6.2",
   "dependencies": {
     "@angular/common": "^21.2.0",
@@ -25,7 +28,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
-    "@angular/build": "^21.2.3",
+    "@angular/build": "^21.2.6",
     "@angular/cli": "^21.2.3",
     "@angular/compiler-cli": "^21.2.0",
     "@types/express": "^5.0.1",
