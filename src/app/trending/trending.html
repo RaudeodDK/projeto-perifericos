@@ -1,5 +1,5 @@
 <section class="section-low">
-    <div class="deucerto">
+    <div class="caixa-tudo">
         <div class="estrutura-titulo">
             <p class="titulo-primario">
                 Trending destinations
@@ -10,9 +10,16 @@
         </div>
 
         <div class="caixa-destinos">
-            <div class="lista-destinos">
 
+            @for (item of destinations; track item.pais){
+            <div class="destino-card {{item.pais.toLowerCase()}}">
+                <img class="img-destinos" src="assets/img/{{item.img}}" alt="imagem de {{item.pais}}">
+                <div class="texto-destinos">
+                    <p class="titulo-qualidades">{{item.pais}}</p>
+                    <p class="texto-qualidades">{{item.tours}}</p>
+                </div>
             </div>
+            }
         </div>
     </div>
 

@@ -1,63 +1,68 @@
-.caixa-destinos{
-    margin-top: 50px ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.section-low{
     width: 1320px;
-
-
+    margin: auto;
+}
+.caixa-tudo{
+    margin-top: 80px;
 }
 .estrutura-titulo{
-    width: 1320px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-} 
-
+    align-items: center;
+}
 .titulo-primario{
-    
-    font-family: inter;
+    /* font-family: inter; */
     font-weight: bold;
     font-size: 25px;
-    display: flex;
-
-    
-
 }
-
-.section-low{
-    
-    margin-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.veja-tudo{
+    /* font-family: inter; */
+    font-size: 15px;
+    color: #05073C;
 }
+.caixa-destinos {
 
-.lista-destinos{
-    margin-top: 50px ;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 1320px;
-}
+    gap: 20px;
+    align-items: flex-start;
 
-.destinos{
+}
+.destino-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 135px;
-    height: 200px;
-    gap: px;
+    text-align: center;
+}
+.titulo-qualidades{
     
+    /* font-family: inter; */
+    font-weight: bold;
+    font-size: 25px;
+}
+.texto-qualidades{
+    margin-top: 15px;
+    /* font-family: inter; */
+    font-size: 17px;
+    width: auto;
+    max-width: 250px;
 }
 
+.texto-destinos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .img-destinos{
     width: 130px;
     height: 130px;
-    transition: all 0.2s ease-in-out
+    display: block;
+    transition: all 0.2s ease-in-out;
 }
 .img-destinos:hover{
     width: 150px;

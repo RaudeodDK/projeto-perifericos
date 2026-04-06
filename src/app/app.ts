@@ -8,12 +8,13 @@ import { Banner } from "./banner/banner";
 import { Trending } from "./trending/trending";
 import { Telefone } from "./telefone/telefone";
 import { Costumer } from "./costumer/costumer";
+import { Articles } from "./articles/articles";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Menu, Tourz, Footer, Banner, Trending, Telefone, Costumer],
+  imports: [RouterOutlet, Menu, Tourz, Footer, Banner, Trending, Telefone, Costumer, Articles],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })

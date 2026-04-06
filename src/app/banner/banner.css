@@ -98,3 +98,16 @@ justify-content: center;
     justify-content: space-around;
     align-items: center;
 }
+.texto-pesquisa{
+    font-family: inter;
+    color: darkgrey;
+    font-size: 12px;
+}
+.titulo-pesquisa{
+    font-family: inter;
+    font-size: 14px;
+}
+.texto-pesquisa-data{
+    font-family: inter;
+    font-size: 12px;
+}

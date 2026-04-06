@@ -1,0 +1,60 @@
+.section-travel{
+    display: flex;
+    justify-content: center;
+}
+.caixa-travel{
+    display: flex;
+    flex-direction: column;
+    width: 1320px;
+    margin-top: 60px;
+}
+.caixa-img-travel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.textos-travel{
+    display: flex;
+    flex-direction: column
+}
+.sobre-travels{
+    font-family: inter;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.texto-data-travels{
+    font-family: inter;
+    font-size: 13px;
+}
+.texto-by-travels{
+    font-family: inter;
+    font-size: 13px;
+}
+.data-by-travels{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 15px;
+}
+.veja-tudo{
+    font-family: inter;
+    font-size: 15px;
+    color: #05073C;
+}
+.titulo-primario{
+    
+    font-family: inter;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+}
+.estrutura-titulo{
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
