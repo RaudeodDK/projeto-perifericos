@@ -57,15 +57,19 @@ justify-content: center;
 }
 .onde{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    align-items: center;
+      
 }
 .quando{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    align-items: center;
 }
 .tipo{
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
+    align-items: center;   
 }
 .caixa-subtexto-banner{
     padding: 10px;

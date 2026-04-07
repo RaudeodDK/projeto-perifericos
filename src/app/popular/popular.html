@@ -1,0 +1,44 @@
+<section class="section-bottom">
+    <div class="continuacerto">
+        <div class="estrutura-titulo">
+            <p class="titulo-primario">
+                Find Popular Tours
+            </p>
+            <p class="veja-tudo">
+                See all
+            </p>
+        </div>
+        <div class="caixa-cards">
+            <div class="grupo-card">
+                @for (item of cards; track item.localidade){
+                <div class="card-popular">
+
+                    <div class="caixa-img-popular"><img class="img-popular" src="./assets/img/{{item.img}}"
+                            alt="{{item.localidade}}">
+                    </div>
+                    <div class="caixa-texto-card">
+
+                        <div class="localidade-card">
+                            <p class="texto-localidade-card">{{item.localidade}}</p>
+                        </div>
+
+                        <p class="titulo-card">{{item.titulo}}</p>
+                        <p class="subtexo-card">{{item.avaliacao}}</p>
+                        <hr>
+
+                        <div class="bottom-card">
+                            <p class="subtexo-card">{{item.dias}}</p>
+                            <div class="caixa-preco">
+                                <p class="subtexo-card">From <span class="preco-card">{{item.preco}}</span></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>

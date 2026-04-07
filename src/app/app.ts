@@ -9,12 +9,13 @@ import { Trending } from "./trending/trending";
 import { Telefone } from "./telefone/telefone";
 import { Costumer } from "./costumer/costumer";
 import { Articles } from "./articles/articles";
+import { Popular } from "./popular/popular";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Menu, Tourz, Footer, Banner, Trending, Telefone, Costumer, Articles],
+  imports: [RouterOutlet, Menu, Tourz, Footer, Banner, Trending, Telefone, Costumer, Articles, Popular],
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
