@@ -1,0 +1,85 @@
+.section-desconto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.caixa-descontos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.caixa-titulo-descontos{
+    width: 350px;
+}
+.texto-titulo-descontos{
+    font-family: inter;
+    font-size: 40px;
+    font-weight: bold;
+}
+.desconto-span{
+    font-family: inter;
+    font-size: 40px;
+    color: #EB662B;
+}
+.subtitulo-descontos{
+    font-family: inter;
+    font-size: 15px;
+}
+.btn-descontos{
+    border: none;
+    background-color: #EB662B;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn-descontos:hover{
+    transform: scale(110%);
+}
+.titulo-pesquisa{
+    font-family: inter;
+    font-size: 14px;
+}
+.texto-pesquisa{
+    font-family: inter;
+    color: darkgrey;
+    font-size: 12px;
+}
+.texto-pesquisa-data{
+    font-family: inter;
+    font-size: 12px;
+}
+.caixa-descontos{
+    background-image: url("/assets/img/banner-descontos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1530px;
+    height: 600px;
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.textos-desconto{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+.caixa-img-descontos{
+    width: 750px;
+    height: 600px;
+}
+.img-descontos{
+    width: 750px;
+    height: 600px;
+    border-radius: 15px;
+}
